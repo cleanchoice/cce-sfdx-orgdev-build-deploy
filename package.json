@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tiagonnascimento/sfdx-orgdev-build-deploy.git"
+    "url": "git+https://github.com/cleanchoice/cce-sfdx-orgdev-build-deploy.git"
   },
   "keywords": [
     "GitHub",
@@ -20,18 +20,14 @@
     "SFDX",
     "Org Development Model"
   ],
-  "author": "Tiago Nascimento <tnascimento@salesforce.com>",
+  "author": "CleanChoice Energy",
   "contributors": [
-    "Manuel Cortes <manuel.cortes@salesforce.com>"
+    "CleanChoice Energy"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tiagonnascimento/sfdx-orgdev-build-deploy/issues"
-  },
-  "homepage": "https://github.com/tiagonnascimento/sfdx-orgdev-build-deploy#readme",
+  "license": "GPL-3.0",
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "@actions/github": "^4.0.0",
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
     "properties-reader": "^2.0.0",
     "xml2js": "^0.4.23"
   },

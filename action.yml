@@ -1,5 +1,5 @@
 name: 'sfdx-orgdev-build-deploy'
-author: Tiago Nascimento - tnascimento@salesforce.com
+author: 'CleanChoice Energy'
 description: 'Convert a Salesforce DX project into a metadata package and deploy it'
 inputs:
     type:
@@ -64,7 +64,7 @@ inputs:
         default: 'force-app/main/default'
 
 runs:
-    using: 'node12'
+    using: 'node16'
     main: 'dist/index.js'
 
 branding:
