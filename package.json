@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cleanchoice/cce-sfdx-orgdev-build-deploy.git"
+    "url": "git+https://github.com/tiagonnascimento/sfdx-orgdev-build-deploy.git"
   },
   "keywords": [
     "GitHub",
@@ -27,7 +27,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "@actions/github": "^5.1.1",
+    "@actions/github": "^4.0.0",
     "properties-reader": "^2.0.0",
     "xml2js": "^0.4.23"
   },
